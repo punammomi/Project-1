@@ -6,4 +6,4 @@ greeting="Welcome back "
 
     welcomeEl.innerText=greeting+name
     
-console.log(welcomeEl)
+welcomeEl.innerText=welcomeEl.innerText+"😁"
