@@ -1,9 +1,7 @@
-let welcomeEl=document.getElementById("welcome-el")
+let errorParagraph=document.getElementById("error")
+console.log(errorParagraph)
 
-name="Punam"
-greeting="Welcome back "
-
-
-    welcomeEl.innerText=greeting+name
-    
-welcomeEl.innerText+="😁"
+function purchase(){
+    console.log("Button clicked")
+    errorParagraph.textContent = "Something went wrong, please try again"
+}
